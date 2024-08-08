@@ -1,5 +1,5 @@
 {% set name = "sea-names" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sea_names-{{ version }}.tar.gz
-  sha256: d0ad91e64b3fb857a2c4681d41cfe589d41fbada94b1cef370d49b7414e6b4fd
+  sha256: 15759f90a65fe851e14fb826b40f7b3973768b18ce52ec482b9d5b13d2eb3763
 
 build:
   entry_points:
